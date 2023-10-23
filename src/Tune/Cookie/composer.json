@@ -1,0 +1,40 @@
+{
+    "name": "tune/cookie",
+    "description": "The Tune Cookie package.",
+    "license": "MIT",
+    "homepage": "https://harmony.com",
+    "support": {
+        "issues": "https://github.com/harmony/framework/issues",
+        "source": "https://github.com/harmony/framework"
+    },
+    "authors": [
+        {
+            "name": "Taylor Otwell",
+            "email": "taylor@harmony.com"
+        }
+    ],
+    "require": {
+        "php": "^8.1",
+        "ext-hash": "*",
+        "tune/collections": "^10.0",
+        "tune/contracts": "^10.0",
+        "tune/macroable": "^10.0",
+        "tune/support": "^10.0",
+        "symfony/http-foundation": "^6.2",
+        "symfony/http-kernel": "^6.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Tune\\Cookie\\": ""
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "10.x-dev"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev"
+}

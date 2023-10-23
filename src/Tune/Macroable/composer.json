@@ -1,0 +1,33 @@
+{
+    "name": "tune/macroable",
+    "description": "The Tune Macroable package.",
+    "license": "MIT",
+    "homepage": "https://harmony.com",
+    "support": {
+        "issues": "https://github.com/harmony/framework/issues",
+        "source": "https://github.com/harmony/framework"
+    },
+    "authors": [
+        {
+            "name": "Taylor Otwell",
+            "email": "taylor@harmony.com"
+        }
+    ],
+    "require": {
+        "php": "^8.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Tune\\Support\\": ""
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "10.x-dev"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev"
+}

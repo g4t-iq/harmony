@@ -1,0 +1,18 @@
+<?php
+
+namespace {{ namespace }};
+
+use Tune\Database\Eloquent\Builder;
+use Tune\Database\Eloquent\Model;
+use Tune\Database\Eloquent\Scope;
+
+class {{ class }} implements Scope
+{
+    /**
+     * Apply the scope to a given Eloquent query builder.
+     */
+    public function apply(Builder $builder, Model $model): void
+    {
+        //
+    }
+}

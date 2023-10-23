@@ -1,0 +1,51 @@
+{
+    "name": "tune/database",
+    "description": "The Tune Database package.",
+    "license": "MIT",
+    "homepage": "https://harmony.com",
+    "support": {
+        "issues": "https://github.com/harmony/framework/issues",
+        "source": "https://github.com/harmony/framework"
+    },
+    "keywords": ["harmony", "database", "sql", "orm"],
+    "authors": [
+        {
+            "name": "Taylor Otwell",
+            "email": "taylor@harmony.com"
+        }
+    ],
+    "require": {
+        "php": "^8.1",
+        "ext-pdo": "*",
+        "brick/math": "^0.9.3|^0.10.2|^0.11",
+        "tune/collections": "^10.0",
+        "tune/container": "^10.0",
+        "tune/contracts": "^10.0",
+        "tune/macroable": "^10.0",
+        "tune/support": "^10.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Tune\\Database\\": ""
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "10.x-dev"
+        }
+    },
+    "suggest": {
+        "ext-filter": "Required to use the Postgres database driver.",
+        "doctrine/dbal": "Required to rename columns and drop SQLite columns (^3.5.1).",
+        "fakerphp/faker": "Required to use the eloquent factory builder (^1.21).",
+        "tune/console": "Required to use the database commands (^10.0).",
+        "tune/events": "Required to use the observers with Eloquent (^10.0).",
+        "tune/filesystem": "Required to use the migrations (^10.0).",
+        "tune/pagination": "Required to paginate the result set (^10.0).",
+        "symfony/finder": "Required to use Eloquent model factories (^6.2)."
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev"
+}

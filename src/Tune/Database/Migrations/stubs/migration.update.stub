@@ -1,0 +1,28 @@
+<?php
+
+use Tune\Database\Migrations\Migration;
+use Tune\Database\Schema\Blueprint;
+use Tune\Support\Facades\Schema;
+
+return new class extends Migration
+{
+    /**
+     * Run the migrations.
+     */
+    public function up(): void
+    {
+        Schema::table('{{ table }}', function (Blueprint $table) {
+            //
+        });
+    }
+
+    /**
+     * Reverse the migrations.
+     */
+    public function down(): void
+    {
+        Schema::table('{{ table }}', function (Blueprint $table) {
+            //
+        });
+    }
+};

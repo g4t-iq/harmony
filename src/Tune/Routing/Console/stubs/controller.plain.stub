@@ -1,0 +1,11 @@
+<?php
+
+namespace {{ namespace }};
+
+use {{ rootNamespace }}Http\Controllers\Controller;
+use Tune\Http\Request;
+
+class {{ class }} extends Controller
+{
+    //
+}

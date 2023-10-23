@@ -1,0 +1,48 @@
+{
+    "name": "tune/validation",
+    "description": "The Tune Validation package.",
+    "license": "MIT",
+    "homepage": "https://harmony.com",
+    "support": {
+        "issues": "https://github.com/harmony/framework/issues",
+        "source": "https://github.com/harmony/framework"
+    },
+    "authors": [
+        {
+            "name": "Taylor Otwell",
+            "email": "taylor@harmony.com"
+        }
+    ],
+    "require": {
+        "php": "^8.1",
+        "ext-filter": "*",
+        "ext-mbstring": "*",
+        "brick/math": "^0.9.3|^0.10.2|^0.11",
+        "egulias/email-validator": "^3.2.5|^4.0",
+        "tune/collections": "^10.0",
+        "tune/container": "^10.0",
+        "tune/contracts": "^10.0",
+        "tune/macroable": "^10.0",
+        "tune/support": "^10.0",
+        "tune/translation": "^10.0",
+        "symfony/http-foundation": "^6.2",
+        "symfony/mime": "^6.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Tune\\Validation\\": ""
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "10.x-dev"
+        }
+    },
+    "suggest": {
+        "tune/database": "Required to use the database presence verifier (^10.0)."
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev"
+}
